@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radar GitHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Radar en temps réel</h1>
+    </header>
+
+    <main>
+        <div class="radar-container">
+            <canvas id="radarCanvas" width="1200" height="700"></canvas>
+        </div>
+
+        <div class="controls">
+            <button id="bluetoothBtn">Connexion Bluetooth</button>
+            <label for="radarColor">Couleur du radar :</label>
+            <input type="color" id="radarColor" value="#00ff00">
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
